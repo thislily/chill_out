@@ -1,2 +1,2 @@
-# Message-Generator
-a message generator project for school thingggss
+# Chill Out
+Just a thing I made for my sister.
