@@ -26,14 +26,18 @@ const chillAffirmations = ['you are allowed to take up space',
      'you should choose to be proud of yourself and the things you choose to do'];
 
 
+const randomGreeting = chillGreeting[Math.floor(Math.random() * chillGreeting.length)];
+const randomActivity = chillActivities[Math.floor(Math.random() * chillActivities.length)];
+const randomSnack = chillSnacks[Math.floor(Math.random() * chillSnacks.length)];
+const randomAffirmation = chillAffirmations[Math.floor(Math.random() * chillAffirmations.length)];
+
+
 const chillSentence = () => {
-    const randomGreeting = chillGreeting[Math.floor(Math.random() * chill.length)];
-    const randomActivity = chillActivities[Math.floor(Math.random() * chillActivities.length)];
-    const randomSnack = chillSnacks[Math.floor(Math.random() * chillSnacks.length)];
-    const randomAffirmation = chillAffirmations[Math.floor(Math.random() * chillAffirmations.length)];
-        return `Listen ${randomGreeting}, ${randomAffirmation}. Go get some ${randomSnack}, and ${randomActivity}. You deserve this.`
+    return `Listen ${randomGreeting}, ${randomAffirmation}. Go get some ${randomSnack}, and ${randomActivity}. You deserve this.`;
+         
 
     };
 
-    console.log(chillSentence());
-    
+const sentence = () => {
+  document.getElementById('sentence').innerHTML = chillSentence();
+}
