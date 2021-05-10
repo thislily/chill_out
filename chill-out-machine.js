@@ -34,10 +34,13 @@ const randomAffirmation = chillAffirmations[Math.floor(Math.random() * chillAffi
 
 const chillSentence = () => {
     return `Listen ${randomGreeting}, ${randomAffirmation}. Go get some ${randomSnack}, and ${randomActivity}. You deserve this.`;
-         
+     };
 
-    };
+let button = document.getElementById('button');
+let displaySentence = document.getElementById('sentence');
 
-const sentence = () => {
-  document.getElementById('sentence').innerHTML = chillSentence();
+let sentence = function() {
+     displaySentence.innerHTML = chillSentence();
 }
+
+button.onclick = sentence;
