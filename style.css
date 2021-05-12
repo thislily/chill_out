@@ -4,6 +4,7 @@ html {
 
 body {
     background-image: url(canada-ontario-best-campgrounds-pancake-bay-provincial-park.jpg) ;
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
@@ -30,12 +31,16 @@ h2 {
     color:rgb(255, 255, 255);
     background-color: #29193046;
     padding: 5px 5px;
+    width: 85%;
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto;
     
 }
 
 .button {
     background-color:rgb(224, 218, 193);
-    border: 3px solid #cea79146;
+    border: 0px;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
@@ -48,4 +53,12 @@ h2 {
 
   * {
     box-sizing: border-box;
+  }
+
+  @media only screen and (orientation: portrait) {
+
+      h2 {
+          font-size: 2rem;
+      }
+      
   }

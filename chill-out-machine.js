@@ -41,6 +41,8 @@ let displaySentence = document.getElementById('sentence');
 
 let sentence = function() {
      displaySentence.innerHTML = chillSentence();
+     button.style.display = 'none';
+
 }
 
 button.onclick = sentence;
