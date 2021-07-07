@@ -10,7 +10,7 @@ const chillActivities = ['snuggle with your pet', 'do some journaling', 'play an
 
 
 const chillSnacks =  ['dried mango', 'apple chips', 'popcorn', 'little squares of dark chocolate',
- 'hummus and veggies', 'bananas and peanut butter', 'chips and quacamole'];
+ 'hummus and veggies', 'bananas and peanut butter', 'chips and guacamole'];
 
 
 const chillAffirmations = ['you are allowed to take up space',
